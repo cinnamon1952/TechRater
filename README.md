@@ -1,12 +1,22 @@
-# React + Vite
+# TechRater - A Tech Product Review Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TechRater is a modern web application designed to help users discover, review, and compare the latest tech products. Built with React, Tailwind CSS, and Framer Motion, this platform offers a seamless user experience with interactive animations, dynamic filtering, and community-driven reviews.
 
-Currently, two official plugins are available:
+## Features
+Core Features:
+Product Discovery : Browse a wide range of tech products across multiple categories (e.g., Smartphones, Laptops, Audio Devices).
+Detailed Product Pages : View product descriptions, specifications, star ratings, and user reviews.
+Search & Filter : Easily find products using the search bar and category filters.
+User Reviews : Submit and read honest reviews from real users.
+Responsive Design : Fully responsive layout optimized for desktops, tablets, and mobile devices.
+Authentication : User login and signup functionality to enable personalized interactions.
+Animations : Smooth animations powered by Framer Motion for an engaging user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+Frontend Framework : React.js
+Styling : Tailwind CSS
+Animations : Framer Motion
+State Management : React Hooks (useState, useEffect)
+Routing : Client-side routing implemented using state management (currentPage).
+Build Tools : Vite or Create React App (depending on your setup)
+Icons : Inline SVG icons for a lightweight design.

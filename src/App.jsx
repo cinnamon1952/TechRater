@@ -21,7 +21,7 @@ const PRODUCTS = [
     },
     rating: 4.7,
     reviewCount: 128,
-    image: "./img/iphone16pro.jpg"
+    image: "img/iphone16pro.jpg"
   },
   {
     id: 2,
@@ -40,7 +40,7 @@ const PRODUCTS = [
     },
     rating: 4.5,
     reviewCount: 89,
-    image: "./img/macbookpro.jpeg"
+    image: "img/macbookpro.jpeg"
   },
   {
     id: 3,

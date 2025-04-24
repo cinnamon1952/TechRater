@@ -1053,7 +1053,7 @@ function SignupModal({ setSignupModalOpen, setLoginModalOpen, setCurrentUser }) 
         <h2 className="text-2xl font-bold mb-6 text-center">Sign Up</h2>
         <form onSubmit={(e) => { e.preventDefault(); handleSignup(); }}>
           <div className="mb-4">
-            <label className="block font-semibold mb-2">Name</label>
+            <label className="block font-semibold mb-2">Username</label>
             <input
               type="text"
               value={name}
